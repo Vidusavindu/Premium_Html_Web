@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <!-- Gradient Colors matching your theme -->
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" /> <!-- Cyan -->
+      <stop offset="100%" stop-color="#c084fc" /> <!-- Purple -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Hexagon Shape -->
+  <polygon points="50,5 90,28 90,72 50,95 10,72 10,28" fill="#0f172a" stroke="url(#logo-gradient)" stroke-width="5" />
+  
+  <!-- Inner Letter 'S' -->
+  <text x="50" y="73" font-family="sans-serif" font-size="55" font-weight="bold" fill="url(#logo-gradient)" text-anchor="middle">S</text>
+</svg>
